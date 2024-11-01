@@ -1,6 +1,6 @@
-# FaceGuardAI: Localization of Facial Images Manipulation in Digital Forensics
+# FaceGuard: Localization of Facial Images Manipulation in Digital Forensics
 
-This project is an implementation of the paper *[Localization of Facial Images Manipulation in Digital Forensics via Convolutional Neural Networks](https://link.springer.com/chapter/10.1007/978-981-33-6129-4_22)*. This project, named **FaceGuardAI**, aims to detect and localize manipulated facial images, a critical task in digital forensics, using advanced deep learning techniques. This repository includes the full code to train, evaluate, and experiment with a Y-shaped Auto-Encoder model for detecting and segmenting manipulated areas within facial images.
+This project is an implementation of the paper *[Localization of Facial Images Manipulation in Digital Forensics via Convolutional Neural Networks](https://link.springer.com/chapter/10.1007/978-981-33-6129-4_22)*. This project, named **FaceGuard**, aims to detect and localize manipulated facial images, a critical task in digital forensics, using advanced deep learning techniques. This repository includes the full code to train, evaluate, and experiment with a Y-shaped Auto-Encoder model for detecting and segmenting manipulated areas within facial images.
 
 ---
 
@@ -19,7 +19,7 @@ This project is an implementation of the paper *[Localization of Facial Images M
 
 ## Introduction
 
-**FaceGuardAI** implements a model for detecting facial image manipulations, based on a Y-shaped Auto-Encoder architecture that simultaneously handles classification, segmentation, and reconstruction tasks. The model is evaluated on the **FaceForensics++** dataset and includes functionality for:
+**FaceGuard** implements a model for detecting facial image manipulations, based on a Y-shaped Auto-Encoder architecture that simultaneously handles classification, segmentation, and reconstruction tasks. The model is evaluated on the **FaceForensics++** dataset and includes functionality for:
 - Training the Y-shaped Auto-Encoder to detect manipulated images and localize regions of manipulation.
 - Experimenting with various configurations and hyperparameters.
 - Evaluating the model on both seen and unseen manipulation types.
@@ -67,8 +67,8 @@ The repository is organized as follows:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/FaceGuardAI.git
-cd FaceGuardAI
+git clone https://github.com/yourusername/FaceGuard.git
+cd FaceGuard
 ```
 
 ### 2. Install Dependencies
