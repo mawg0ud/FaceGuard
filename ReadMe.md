@@ -1,4 +1,5 @@
-# FaceGuard: Localization of Facial Images Manipulation in Digital Forensics
+# FaceGuard:
+# Localization of Facial Images Manipulation in Digital Forensics
 
 This project is an implementation of the paper *[Localization of Facial Images Manipulation in Digital Forensics via Convolutional Neural Networks](https://link.springer.com/chapter/10.1007/978-981-33-6129-4_22)*. This project, named **FaceGuard**, aims to detect and localize manipulated facial images, a critical task in digital forensics, using advanced deep learning techniques. This repository includes the full code to train, evaluate, and experiment with a Y-shaped Auto-Encoder model for detecting and segmenting manipulated areas within facial images.
 
