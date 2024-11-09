@@ -1,0 +1,40 @@
+# Baseline Experiment Configuration
+experiment_name: "Baseline Training"
+
+# Directories
+data_dir: "../datasets/FaceForensics++"
+output_dir: "../results/baseline"
+log_dir: "../logs"
+
+# Model Configurations
+model:
+  name: "YAutoEncoder"
+  input_size: 256
+  embedding_dim: 128
+
+# Training Configurations
+training:
+  epochs: 50
+  batch_size: 16
+  learning_rate: 0.001
+  device: "cuda"  # or "cpu"
+  num_workers: 4
+  pin_memory: true
+
+# Loss Weights
+loss_weights:
+  activation_weight: 1.0
+  segmentation_weight: 1.0
+  reconstruction_weight: 1.0
+
+# Augmentation Configurations
+augmentation:
+  resize: 256
+  horizontal_flip: 0.5
+  brightness_contrast: 0.2
+
+# Logging
+logging:
+  log_interval: 10  # Log after every 10 batches
+  save_model_interval: 10  # Save model every 10 epochs
+  log_level: "INFO"
