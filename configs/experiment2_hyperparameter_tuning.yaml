@@ -1,0 +1,42 @@
+# Hyperparameter Tuning Experiment Configuration
+experiment_name: "Hyperparameter Tuning"
+
+# Directories
+data_dir: "../datasets/FaceForensics++"
+output_dir: "../results/hyperparameter_tuning"
+log_dir: "../logs"
+
+# Model Configurations
+model:
+  name: "YAutoEncoder"
+  input_size: 256
+  embedding_dim: 128
+
+# Training Configurations
+training:
+  epochs: 75
+  batch_size: 32
+  learning_rate: 0.0005
+  device: "cuda"
+  num_workers: 8
+  pin_memory: true
+
+# Loss Weights
+loss_weights:
+  activation_weight: 0.5
+  segmentation_weight: 1.5
+  reconstruction_weight: 1.0
+
+# Augmentation Configurations
+augmentation:
+  resize: 256
+  horizontal_flip: 0.5
+  random_rotation: 10  # Add rotation with max degree of 10
+  brightness_contrast: 0.3
+  random_crop: [224, 224]
+
+# Logging
+logging:
+  log_interval: 5
+  save_model_interval: 5
+  log_level: "DEBUG"
