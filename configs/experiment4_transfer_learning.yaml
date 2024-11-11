@@ -1,0 +1,41 @@
+# Transfer Learning Experiment Configuration
+experiment_name: "Transfer Learning Fine-Tuning"
+
+# Directories
+data_dir: "../datasets/FaceForensics++_new"
+output_dir: "../results/transfer_learning"
+log_dir: "../logs"
+pretrained_model_path: "../results/hyperparameter_tuning/tuned_model.pth"
+
+# Model Configurations
+model:
+  name: "YAutoEncoder"
+  input_size: 256
+  embedding_dim: 128
+
+# Training Configurations for Fine-Tuning
+training:
+  fine_tune_epochs: 30
+  batch_size: 16
+  learning_rate: 0.0001  # Lower learning rate for fine-tuning
+  device: "cuda"
+  num_workers: 4
+  pin_memory: true
+
+# Loss Weights (Adjusted for Fine-Tuning)
+loss_weights:
+  activation_weight: 0.7
+  segmentation_weight: 1.2
+  reconstruction_weight: 0.8
+
+# Augmentation Configurations for Fine-Tuning
+augmentation:
+  resize: 256
+  horizontal_flip: 0.4
+  brightness_contrast: 0.25
+
+# Logging
+logging:
+  log_interval: 10
+  save_model_interval: 10
+  log_level: "INFO"
