@@ -1,0 +1,40 @@
+# Unseen Attack Evaluation Experiment Configuration
+experiment_name: "Unseen Attack Evaluation"
+
+# Directories
+data_dir: "../datasets/FaceForensics++"
+output_dir: "../results/unseen_attacks"
+log_dir: "../logs"
+pretrained_model_path: "../results/baseline/baseline_model.pth"
+
+# Model Configurations
+model:
+  name: "YAutoEncoder"
+  input_size: 256
+  embedding_dim: 128
+
+# Evaluation Configurations
+evaluation:
+  batch_size: 16
+  device: "cuda"
+  num_workers: 4
+  pin_memory: true
+
+# Augmentation Configurations for Evaluation
+augmentation:
+  resize: 256
+  normalize:
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+
+# Logging
+logging:
+  log_interval: 1  # Log every batch during evaluation
+  log_level: "INFO"
+
+# Metrics to Record
+metrics:
+  - accuracy
+  - eer  # Equal Error Rate
+  - precision
+  - recall
