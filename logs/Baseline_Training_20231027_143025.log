@@ -1,0 +1,6 @@
+2023-10-27 14:30:25 - INFO - Logger initialized for experiment: Baseline_Training
+2023-10-27 14:30:25 - INFO - Starting baseline training experiment...
+2023-10-27 14:30:25 - INFO - Epoch 1/50 - Training...
+2023-10-27 14:30:26 - INFO - Epoch 1 - Loss: 0.02, Accuracy: 98.5%
+2023-10-27 14:30:27 - WARNING - High loss detected, consider tuning hyperparameters.
+2023-10-27 14:30:28 - INFO - Training complete.
