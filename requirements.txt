@@ -1,0 +1,38 @@
+# Core Packages
+torch==1.9.0                  # For deep learning model implementation (PyTorch)
+torchvision==0.10.0           # For image transformations and pretrained models
+
+# Data Processing and Preprocessing
+numpy==1.21.0                 # Array processing and mathematical operations
+opencv-python-headless==4.5.3 # For image processing, headless version for server environments
+pandas==1.3.2                 # Data handling and manipulation
+scikit-learn==0.24.2          # Machine learning utilities, metrics, and preprocessing
+
+# Data Augmentation
+albumentations==1.1.0         # Image augmentation library for complex data augmentations
+Pillow==8.2.0                 # Image processing library for handling different image formats
+
+# Logging and Experiment Tracking
+tqdm==4.62.2                  # Progress bar for tracking loops in training and data loading
+tensorboard==2.5.0            # Logging and visualization of training metrics
+
+# Visualization
+matplotlib==3.4.3             # Plotting library for visualizing training metrics and results
+seaborn==0.11.2               # Statistical data visualization (used for advanced plotting)
+plotly==5.3.1                 # Interactive visualization for data exploration and advanced plots
+
+# Configuration Management
+PyYAML==5.4.1                 # Reading and writing YAML configuration files
+
+# Web Requests (for Dataset Downloading)
+requests==2.26.0              # HTTP library for making requests to download datasets
+
+# Optional: Error Reporting and Monitoring
+sentry-sdk==1.3.1             # Error tracking and monitoring for deep learning experiments
+
+# System Utilities
+psutil==5.8.0                 # System and process utilities for tracking CPU and memory usage
+
+# Testing and Debugging
+pytest==6.2.5                 # Testing framework for unit tests
+pytest-cov==2.12.1            # Code coverage plugin for pytest
