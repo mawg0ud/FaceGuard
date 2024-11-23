@@ -68,7 +68,7 @@ The repository is organized as follows:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/FaceGuard.git
+git clone https://github.com/mawg0ud/FaceGuard.git
 cd FaceGuard
 ```
 
