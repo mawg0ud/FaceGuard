@@ -156,11 +156,3 @@ If you use this code or the model in your work, please cite the following paper:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-### Acknowledgments
-
-Special thanks to the authors of *Localization of Facial Images Manipulation in Digital Forensics via Convolutional Neural Networks* for their contributions to this field. This implementation is based on their research and aims to extend the reproducibility of their findings.
-
----
-
-This `README.md` file is structured to provide all necessary information for users, collaborators, and researchers to understand, set up, and use the project effectively. It also follows GitHub best practices with clear headings, explanations, and links to resources within the repository.
