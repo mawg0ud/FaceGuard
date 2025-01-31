@@ -2,7 +2,11 @@
 
 Hey team, great work making it this far!
 
-Now that the FaceGuard system is up and running, it's time to test it thoroughly. Testing is where we see how well our project holds up in the real world. We'll test its functionality, accuracy, and performance under different conditions.
+Now that the FaceGuard system is up and running, it's time to test it thoroughly.
+
+Testing is where we see how well our project holds up in the real world.
+
+We'll test its functionality, accuracy, and performance under different conditions.
 
 Think of this as giving our system a good workout to see how strong it really is!
 
@@ -126,5 +130,7 @@ If you encounter issues during testing, here’s how to tackle them:
 
 Once testing is complete and your system is working like a champ, it’s time to wrap everything up and reflect on what we’ve learned.
 
-In the next section, **06-Troubleshooting & Optimization.md**, we’ll tackle common challenges and explore ways to make the system even better. Stay tuned, and great job so far!
+In the next section, **06-Troubleshooting & Optimization.md**, we’ll tackle common challenges and explore ways to make the system even better.
+
+Stay tuned & great job so far!
 
