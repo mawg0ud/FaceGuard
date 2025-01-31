@@ -1,8 +1,10 @@
 # 06- Troubleshooting & Optimization
 
-Hey friends! You've made it so far, and that's amazing! But let's be real: no project is perfect on the first try. This section is all about fixing things that might go wrong and tweaking the system to make it better, faster, and more reliable.
+Hey friends! You've made it so far, and that's amazing! But let's be real: no project is perfect on the first try.
 
-Think of it like fine-tuning a musical instrument—we want FaceGuard to hit all the right notes!
+This section is all about fixing things that might go wrong and tweaking the system to make it better, faster and more reliable.
+
+Think of it like fine-tuning a musical instrument .. we want FaceGuard to hit all the right notes!
 
 ---
 
@@ -82,5 +84,7 @@ Once everything works, it’s time to level up! Here are ways to optimize FaceGu
 
 Once you’ve troubleshot and optimized your system, you’ll have a high-performing FaceGuard ready for action.
 
-In the next section, **07-Conclusion.md**, we’ll reflect on everything you’ve learned and discuss potential extensions to take your project even further. Keep up the awesome work!
+In the next section, **07-Conclusion.md**, we’ll reflect on everything you’ve learned and discuss potential extensions to take your project even further.
+
+Keep up the awesome work!
 
