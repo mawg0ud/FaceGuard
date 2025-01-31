@@ -1,6 +1,12 @@
 # 04- Implementation Guide
 
-Alright, folks! It’s time to roll up our sleeves and dive into building the FaceGuard project. We’re going to break this down step by step so it’s easy to follow, even if you’re not a coding wizard. Think of it as a roadmap, with each step getting us closer to our final goal. Let’s get started!
+Alright, folks! It’s time to roll up our sleeves and dive into building the FaceGuard project.
+
+We’re going to break this down step by step so it’s easy to follow, even if you’re not a coding wizard.
+
+Think of it as a roadmap, with each step getting us closer to our final goal.
+
+Let’s get started!
 
 ---
 
@@ -143,6 +149,6 @@ Finally, we’ll tie everything together by adding authentication logic.
 
 That’s it for the implementation! If you’ve followed along, you should now have a working facial authentication system.
 
-Next up is the **Experiment Testing.md** section, where we’ll validate the system’s performance and see how it holds up in real-world scenarios.
+Next up is the **Experiment Testing.md** section, where we’ll validate the system’s performance and see how it holds up in actual scenarios.
 
 Let’s keep the momentum going!
