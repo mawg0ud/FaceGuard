@@ -1,6 +1,12 @@
 # 03- Experiment Methodology
 
-Alright, now that we’re all set with the prerequisites, it’s time to map out our approach to tackling the FaceGuard project. Think of this as the blueprint for our work—it’ll help us stay on track and get everything done step by step. Ready? Let’s go!
+Alright, now that we’re all set with the prerequisites, it’s time to map out our approach to tackling the FaceGuard project.
+
+Think of this as the blueprint for our work it’ll help us stay on track and get everything done step by step. 
+
+Ready?
+
+Let’s go!
 
 ---
 
@@ -95,4 +101,8 @@ To keep us motivated, here are the major milestones we’ll celebrate along the 
 
 ## Next Steps
 
-With our methodology mapped out, we’re ready to roll up our sleeves and get started. In the next section (**04-Implementation Guide.md**), we’ll dive into the actual coding and build the FaceGuard system step by step. Let’s do this!
+With our methodology mapped out, we’re ready to roll up our sleeves and get started.
+
+In the next section (**04-Implementation Guide.md**), we’ll go through the actual coding and build the FaceGuard system step by step.
+
+Let’s do this!
