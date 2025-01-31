@@ -1,10 +1,14 @@
 # 02- Prerequisites
 
-Hey there! Before we dive into the nitty-gritty of the FaceGuard project, let's make sure we have everything we need to get started. Think of this as the checklist for our journey—a little prep work now will save us from headaches later.
+Hey there! Before we go into the nitty-gritty of the 'FaceGuard' project, let's make sure we have everything we need to get started.
+
+Think of this as the checklist for our journey a little prep work now will save us from headaches later.
 
 ## Skills You Need
 
-Don’t worry; you don’t need to be an expert to follow along, but having a good grasp of the basics will make everything much smoother. Here’s what you should be comfortable with:
+Don’t worry; you don’t need to be an expert to follow along, but having a good grasp of the basics will make everything much smoother.
+
+Here’s what you should be comfortable with:
 
 - **Python programming**: If you know how to write loops, functions, and work with libraries, you’re good to go. If not, maybe do a quick Python crash course first.
 - **Basic machine learning**: It’s helpful to know what a neural network is and how training works, but we’ll cover the essentials as we go.
@@ -61,7 +65,9 @@ Once you’ve got the tools and requirements sorted, you’ll need to set up you
 
 ## Additional Resources
 
-Need a bit more help? Here are some great places to learn and troubleshoot:
+Need a bit more help?
+
+Here are some great places to learn and troubleshoot:
 
 - **Python Basics**: [Learn Python](https://www.learnpython.org/)
 - **OpenCV Docs**: [OpenCV Tutorials](https://docs.opencv.org/)
@@ -70,4 +76,12 @@ Need a bit more help? Here are some great places to learn and troubleshoot:
 
 ---
 
-All set? Awesome! With these prerequisites in place, you’re ready to tackle the next section: **Experiment Methodology.md**. Let’s get rolling!
+All set? 
+
+Awesome! 
+
+With these prerequisites in place, you’re ready to tackle the next section: 
+
+**Experiment Methodology.md**.
+
+Let’s get rolling!
